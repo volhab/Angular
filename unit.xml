@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 130.0.0.0 (Windows 10)" package="unit" timestamp="2024-11-19T06:44:39" id="0" hostname="LN27YD2SA3B9DD" tests="4" errors="0" failures="0" time="0.163">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/130.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent Initial customer list is rendered as expected" time="0.125" classname=".AppComponent"/>
+  <testcase name="AppComponent Perform series of actions" time="0.017" classname=".AppComponent"/>
+  <testcase name="AppComponent View details button works correctly" time="0.01" classname=".AppComponent"/>
+  <testcase name="AppComponent Customer Details section is not rendered initially" time="0.011" classname=".AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
