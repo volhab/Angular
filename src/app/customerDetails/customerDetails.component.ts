@@ -20,7 +20,7 @@ export class CustomerDetails implements OnChanges {
   }
 
   ngOnChanges() {
-      this.customerDetail = this.customerDetailsRecords.find(c => c.id ==  this.selectedId);
-      this.customer = this.customers.find(c => c.id ==  this.selectedId);
+      this.customerDetail = this.customerDetailsRecords.find(c => c.id ==  this.selectedId)!;
+      this.customer = this.customers.find(c => c.id ==  this.selectedId)!;
   }
 }
